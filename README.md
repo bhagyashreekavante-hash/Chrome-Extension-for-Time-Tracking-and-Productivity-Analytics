@@ -14,3 +14,5 @@
 # Chrome Extension for Time Tracking and Productivity Analytics that monitors user browsing behavior, classifies websites based on productivity, and visualizes usage patterns through intuitive dashboards. It helps users improve focus by providing real-time statistics, productivity scores, and weekly performance summaries.
 
 #OUTPUT
+
+<img width="456" height="766" alt="Image" src="https://github.com/user-attachments/assets/c0e52568-17da-434f-a2b7-88e20de30103" />
