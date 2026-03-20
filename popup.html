@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>ProductivityTracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">⏱ ProductivityTracker</div>
+    <div class="date" id="date"></div>
+  </div>
+
+  <!-- Summary cards -->
+  <div class="summary">
+    <div class="card productive">
+      <div class="card-label">Productive</div>
+      <div class="card-value" id="productive-time">0h 0m</div>
+    </div>
+    <div class="card unproductive">
+      <div class="card-label">Unproductive</div>
+      <div class="card-value" id="unproductive-time">0h 0m</div>
+    </div>
+    <div class="card neutral">
+      <div class="card-label">Neutral</div>
+      <div class="card-value" id="neutral-time">0h 0m</div>
+    </div>
+  </div>
+
+  <!-- Productivity score -->
+  <div class="score-section">
+    <div class="score-label">Today's Productivity Score</div>
+    <div class="score-bar-wrap">
+      <div class="score-bar" id="score-bar"></div>
+    </div>
+    <div class="score-value" id="score-value">0%</div>
+  </div>
+
+  <!-- Top sites -->
+  <div class="section-title">Top Sites Today</div>
+  <div id="sites-list"></div>
+
+  <!-- Weekly report -->
+  <div class="section-title">Weekly Report</div>
+  <div id="weekly-list"></div>
+
+  <!-- Clear button -->
+  <button class="clear-btn" id="clear-btn">Clear Today's Data</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

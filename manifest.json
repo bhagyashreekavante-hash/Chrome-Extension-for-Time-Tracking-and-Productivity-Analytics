@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ProductivityTracker",
+  "version": "1.0",
+  "description": "Track time spent on websites and get productivity analytics.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "alarms",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ProductivityTracker"
+  }
+}
